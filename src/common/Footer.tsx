@@ -14,11 +14,11 @@ Footer.Container = styled.div`
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	border-bottom: solid 15px #f4c095;
+	border-bottom: solid 30px #f4c095;
 	padding-bottom: 10px;
 `
 Footer.TextName = styled.h5`
-	font-size: 0.6rem;
+	font-size: 1.2rem;
 	font-weight: bold;
 	text-align: right;
 	margin-bottom: 5px;
@@ -26,7 +26,7 @@ Footer.TextName = styled.h5`
 	color: #eaeaea;
 `
 Footer.Text = styled.h6`
-	font-size: 0.4rem;
+	font-size: 1rem;
 	color: #000000;
 	text-align: right;
 	margin-right: 5px;
