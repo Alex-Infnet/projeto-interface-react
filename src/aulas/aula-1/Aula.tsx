@@ -1,8 +1,8 @@
 import {useContext} from 'react'
-import Header from '../../common/Header'
-import Footer from '../../common/Footer'
-import Nav from '../../common/Nav'
+import {Header, Footer, Nav, Col, Row} from '../../common'
 import {AulaContext} from '../../App'
+import Slide1 from './Slide1'
+import Slide2 from './Slide2'
 
 const Aula = () => {
 	const {slide, setSlide} = useContext(AulaContext)
@@ -11,10 +11,10 @@ const Aula = () => {
 			<Header />
 			<Nav />
 			{slide === 1 &&(
-				<div>Slide 1</div>
+				<Slide1 />
 			)}
 			{slide === 2 &&(
-				<div>Slide {slide.toString()}</div>
+				<Slide2 />
 			)}
 			<Footer />
 		</>		
