@@ -1,6 +1,5 @@
-import styled from 'styled-components'
 import { Col, GridItem } from "../../common"
-import Slide from "../../common/Slide"
+import Slide, { SlideLi } from "../../common/Slide"
 
 const Slide1 = () => {
   return (
@@ -9,11 +8,12 @@ const Slide1 = () => {
         <>
           <GridItem>
             <ul>
-              <Slide1.Li>Disciplina: Projeto de Interfaces com React</Slide1.Li>
-              <Slide1.Li>Professor: Alexandre Werneck Andreza</Slide1.Li>
-              <Slide1.Li>Conteúdo da disciplina: https://github.com/xanwerneck/projeto-interface-react</Slide1.Li>
-              <Slide1.Li>Metodologia: Live coding baseado em projeto</Slide1.Li>
-              <Slide1.Li>Caso de uso: Gestor de Obras</Slide1.Li>
+              <SlideLi><b>Disciplina:</b> Projeto de Interfaces com React</SlideLi>
+              <SlideLi><b>Professor:</b> Alexandre Werneck Andreza</SlideLi>
+              <SlideLi><b>Conteúdo da disciplina (slides):</b> <a href="https://github.com/xanwerneck/projeto-interface-react">https://github.com/xanwerneck/projeto-interface-react</a></SlideLi>
+              <SlideLi><b>Metodologia:</b> Live coding | Code review | Conteúdo teórico {'=>'} prático</SlideLi>
+              <SlideLi><b>Caso de uso:</b> Gestor de Obras</SlideLi>
+              <SlideLi><b>Linkedin:</b> /in/xanwerneck</SlideLi>
             </ul>
           </GridItem>
           <GridItem>
@@ -24,15 +24,5 @@ const Slide1 = () => {
     </Slide>
   )
 }
-
-Slide1.Li = styled.li`
-  font-size: 1.6rem;
-  margin-bottom: 15px;
-`
-Slide1.Image = styled.img`
-  min-width: 500px;
-  justify-content: center;
-`
-
 
 export default Slide1
