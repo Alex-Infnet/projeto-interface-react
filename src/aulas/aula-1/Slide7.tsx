@@ -12,7 +12,7 @@ const Slide7 = () => {
               <SlideLi>React</SlideLi>
               <SlideLi>
                 <Code>
-                  React é um framework JS orientado a estados que implementa, através da sintaxe JSX, a sua própria maneira de criação de objetos HTML, manipulação de funções e valores JS através de componentes otimizados e personalizados.
+                  React é uma biblioteca JS orientada a componentes que implementa, através da sintaxe JSX, a sua própria maneira de criação de objetos HTML, manipulação de funções, estados e variáveis através de estruturas (componentes) otimizadas e personalizadas.
                 </Code>
               </SlideLi>
               <SlideLi>JSX</SlideLi>
