@@ -12,7 +12,8 @@ const Slide3 = () => {
               <SlideLi>E definir alguns conceitos como:
                 <ul>
                   <SlideLi>Props = passagem de parâmetros</SlideLi>
-                  <SlideLi>Parent {'>>'} Child</SlideLi>
+                  <SlideLi>Relação Parent {'>>'} Child entre componentes</SlideLi>
+                  <SlideLi>Reutilização de componentes entre diferentes páginas</SlideLi>
                 </ul>
               </SlideLi>
             </ul>
