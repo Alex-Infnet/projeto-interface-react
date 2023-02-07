@@ -8,7 +8,7 @@ const Slide4 = () => {
         <>
           <GridItem>
             <ul>
-              <SlideLi>Ops... antes de construir o primeiro componente vamos falar de uma das principais hooks do React</SlideLi>
+              <SlideLi>Ops... não tem jeito, precisamos falar das tais Hooks... Antes de construir o primeiro componente vamos falar de uma das principais hooks do React</SlideLi>
               <ul>
                 <SlideLi>
                   <Code>useState</Code>
@@ -16,7 +16,7 @@ const Slide4 = () => {
                 <SlideLi>Com <b>escopo local</b>, o useState cria <u>getter</u> e <u>setter</u> para variáveis que duram todo o tempo de vida do componente
                   <ul>
                     <SlideLi><h6>Tempo de vida do componente?</h6></SlideLi>
-                    <SlideLi>O React faz um importante controle otimizado do tempo de vida dos componentes. Dessa maneira, depois que um componente é iniciado e não mais utilizado, para reduzir o consumo de memória, o React faz um limpeza desse componente e todos as funções e variáveis dentro do escopo desse componente</SlideLi>
+                    <SlideLi>O React faz um importante controle otimizado do tempo de vida dos componentes. Dessa maneira, depois que um componente é iniciado e não mais utilizado, para reduzir o consumo de memória, o React faz um limpeza desse componente e todas as funções e variáveis dentro do escopo desse componente</SlideLi>
                     <SlideLi>É o caso dessas variáveis de estado locais, são eliminadas assim que o componente deixa de existir</SlideLi>
                   </ul>
                 </SlideLi>

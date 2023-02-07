@@ -9,7 +9,7 @@ const Slide2 = () => {
           <GridItem>
             <ul>
               <SlideLi>Hoje o nosso principal foco é estudar a criação de componentes React...</SlideLi>
-              <SlideLi>Antes disso, vamos mostrar as duas maneiras de criarmos componentes: Classes (out-of-date) | Funcionais (hooks)</SlideLi>
+              <SlideLi>Antes disso, vamos falar sobre as duas maneiras de criarmos componentes: Classes (out-of-date) | Funcionais (hooks)</SlideLi>
               <SlideLi>Os componentes React inicialmente eram orientados a classes, implementando funções personalizadas para manipulações da Virtual DOM:
                 <ul>
                   <SlideLi>componentWillUpdate</SlideLi>
@@ -21,9 +21,13 @@ const Slide2 = () => {
                   </SlideLi>
                 </ul>
               </SlideLi>
-              <SlideLi>A partir da versão 16, o React inclui a criação de componentes funcionais, em que os eventos de renderização são controlados e manipulados através de um conceito chamado Hooks.</SlideLi>
+              <SlideLi>A partir da versão 16, o React inclui a criação de componentes funcionais, sem a necessidade de implementação de classes.</SlideLi>
+              <SlideLi>O principal mecanismo que permitiu isso foi através das funções hooks, que conseguem reagir aos eventos do ciclo de vida dos componentes. Manutenção de estados, ações antes e depois da inicialização ou desmontagem dos componentes, compartilhamento de props, dentre outros.</SlideLi>
               <SlideLi>
                 <h6>* Voltaremos a definir as principais hooks do React, mas antes disso, vamos ver a criação de componentes.</h6>
+              </SlideLi>
+              <SlideLi>
+                <h6>* Para entender um pouco mais sobre Hooks, recomendo: https://reactjs.org/docs/hooks-overview.html</h6>
               </SlideLi>
             </ul>
           </GridItem>

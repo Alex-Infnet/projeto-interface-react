@@ -24,9 +24,7 @@ const Slide9 = () => {
               </SlideLi>
               <SlideLi>Comandos:
                 <ul>
-                  <SlideLi>Iniciar um projeto node: npm init | Preencher com as informações do projeto</SlideLi>
-                  <SlideLi>yarn add react react-dom | npm i react react-dom</SlideLi>
-                  <SlideLi>yarn start | npm run start</SlideLi>
+                  <SlideLi>Acesse README_REACT_SEM_CREATE no repositório do projeto</SlideLi>
                 </ul>
               </SlideLi>
             </ul>
