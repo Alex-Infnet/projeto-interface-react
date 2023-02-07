@@ -21,9 +21,10 @@ const Slide1 = () => {
               </SlideLi>
               <SlideLi>Na aula de hoje vamos ver:
                 <ul>
+                  <SlideLi>Api de Context</SlideLi>
+                  <SlideLi>Customização de temas | Props para todos os níveis inferiores</SlideLi>
+                  <SlideLi>Styled components</SlideLi>
                   <SlideLi>MUI for React - Material for React</SlideLi>
-                  <SlideLi>Customização de temas</SlideLi>
-                  <SlideLi>Definição de paleta de cores | Personalização de fontes</SlideLi>
                 </ul>
               </SlideLi>
             </ul>

@@ -13,7 +13,7 @@ const Slide1 = () => {
                 <ul>
                   <SlideLi>Hook useState</SlideLi>
                   <SlideLi>Criação de componentes funcionais</SlideLi>
-                  <SlideLi>Passagem de parâmetros entre componnentes</SlideLi>
+                  <SlideLi>Passagem de parâmetros entre componentes</SlideLi>
                 </ul>
               </SlideLi>
             </ul>

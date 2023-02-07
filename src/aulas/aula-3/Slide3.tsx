@@ -8,22 +8,18 @@ const Slide3 = () => {
         <>
           <GridItem>
             <ul>
-              <SlideLi>MUI - Material components for React</SlideLi>
-              <SlideLi>Referência: <a href="https://mui.com">MUI.com</a>
+              <SlideLi><strong>Context</strong> - Interface para compartilhamento de props</SlideLi>
+              <SlideLi>"Contexto (context) disponibiliza uma forma de passar dados entre a árvore de componentes sem precisar passar props manualmente em cada nível."</SlideLi>
+              <SlideLi>"Contexto (context) é usado principalmente quando algum dado precisa ser acessado por muitos componentes em diferentes níveis."</SlideLi>
+              <SlideLi>Quando usar?
                 <ul>
-                  <SlideLi>Permite a utilização de componentes primários comuns a maioria das aplicações Web</SlideLi>
-                  <SlideLi>Facilita a integração com styled-components</SlideLi>
-                  <SlideLi>Permite a definição, através de sobrecarga, de temas personalizados</SlideLi>
+                  <SlideLi>Contexto (context) é indicado para compartilhar dados que podem ser considerados “globais” para a árvore de componentes do React.</SlideLi>
+                  <SlideLi>Usuário | Language | Temas</SlideLi>
                 </ul>
               </SlideLi>
-              <SlideLi>Para instalar a biblioteca basta seguir a recomendação de <i>Getting Started</i>
+              <SlideLi>Quando não usar?
                 <ul>
-                  <SlideLi><Code>yarn add @mui/material @emotion/react @emotion/styled | npm install @mui/material @emotion/react @emotion/styled</Code></SlideLi>
-                  <SlideLi>Como sugestão, alguns outros componentes podem ser instalados que servem como complemento a instalação original, por exemplo:
-                      <ul>
-                        <SlideLi><Code>yarn add @mui/icons-material | npm i @mui/icons-material</Code></SlideLi>
-                      </ul>
-                  </SlideLi>
+                  <SlideLi>Evitar usar contexto quando um componente precisa ser compartilhado e reutilizado muitas vezes.</SlideLi>
                 </ul>
               </SlideLi>
             </ul>
