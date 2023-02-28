@@ -1,5 +1,5 @@
 import {useState, createContext} from 'react';
-import {default as Aula} from './aulas/aula-6/Aula'
+import {default as Aula} from './aulas/aula-7/Aula'
 
 export const AulaContext = createContext<{ slide: number, setSlide: Function }>({slide: 1, setSlide: () => {}})
 
